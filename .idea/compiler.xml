@@ -9,9 +9,11 @@
         <module name="ExceptionHandling" />
         <module name="Multithreading" />
         <module name="LambdaExpression" />
-        <module name="VehicleManagementSystem" />
         <module name="BankingApp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="VehicleManagementSystem" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
